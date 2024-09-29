@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #215ff0;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.header-container nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-container nav ul li {
+    margin-right: 20px;
+}
+
+.header-container nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.back-button {
+    background-color: #280452;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #b297f5;
+}
+
+.admin-dashboard {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #140f0f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dashboard-button {
+    width: 30%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    background-color: #3e8e41;
+}
+
+.dashboard-button:nth-child(1) {
+    background-color : #ff69b4;
+}
+
+.dashboard-button:nth-child(1):hover {
+    background-color: #ff99cc;
+}
+
+.dashboard-button:nth-child(2) {
+    background-color: #33cc33;
+}
+
+.dashboard-button:nth-child(2):hover {
+    background-color: #66ff66;
+}
+
+.dashboard-button:nth-child(3) {
+    background-color: #66ccff;
+}
+
+.dashboard-button:nth-child(3):hover {
+    background-color: #99ffff;
+}
+
+.product-details {
+    margin-top: 20px;
+ }
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    border: 2px solid #0f0637;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    clear: both;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logout-button {
+    background-color: #2a0741;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #8070e6;
+}
